@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "NoteBlockchain",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "NoteBlockchain",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "NTBC",
 
   // logo
   "logo": "/images/logo.png",
@@ -26,7 +26,7 @@
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Notable",
 
   // port to listen for requests on.
   "port" : 3001,
@@ -99,12 +99,12 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
-    "exchange": "BTC",
-    "enabled": ["bittrex"],
+    "coin": "NTBC",
+    "exchange": "DOGE",
+    "enabled": ["altmarkets", "tradesatoshi"],
     "cryptopia_id": "1658",
     "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
+    "default": "altmarkets"
   },
 
   // richlist/top100 settings
@@ -124,14 +124,14 @@
   },
 
   // twitter, facebook, googleplus, youtube
-  "twitter": "iquidus",
-  "facebook": "yourfacebookpage",
-  "googleplus": "yourgooglepluspage",
-  "youtube": "youryoutubechannel",
+  "twitter": "BlockchainNote",
+  "facebook": "#",
+  "googleplus": "#",
+  "youtube": "#",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "4b5a2918836ad72756e2dfd7df0250fb7568607da780ecb6da27e02e24a810c6",
+  "genesis_block": "854125f6e3994feb859e79588485e5eff93aaf9b2729bffb6f159ef4dd42de3b",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
