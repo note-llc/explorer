@@ -51,7 +51,7 @@
   "wallet": {
     "host": "localhost",
     "port": 9332,
-    "username": "darkcoinrpc",
+    "username": "notebcrpc",
     "password": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
@@ -89,10 +89,10 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 1024,
+    "blockhash":"635dfedec4035ed1e56a9f9043b77100dca98e119e0dbd34bd1f7191a3b145df",
+    "txhash": "27201a4a4c1ae8f8201dc7533c70e0e5b863f649341c2e1bb6b42106e236abd7",
+    "address": "NUy7W8JTF6T3CL5JJdUYvrjYriKrvpjWrV"
   },
 
   // market settings
@@ -152,7 +152,7 @@
   // HEAVY: retreive from heavys getsupply api call
   // BALANCES : total of all address balances
   // TXOUTSET : retreive from gettxoutsetinfo api call
-  "supply": "COINBASE",
+  "supply": "BALANCES",
 
   // how to acquire network hashrate
   // getnetworkhashps: uses getnetworkhashps api call, returns in GH/s
